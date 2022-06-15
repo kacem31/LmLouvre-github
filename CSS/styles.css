@@ -1,0 +1,55 @@
+.body{
+	/**background-color: #125959;**/
+	background-image: url('../images/louvre.jpg');
+	background-size: cover;
+}
+.page{
+	width: 780px;
+	margin: auto;
+	font-family: 'source sans pro', calibri, tahoma, sans-ser;
+	font-size: 16px;
+	border: 3px solid blue;
+	border-radius: 15px;
+	box-shadow: 4px 6px 5px black;
+	padding: 50px;
+	/**background-image: url('../images/louvre.jpg');**/
+	/**background-repeat: no-repeat;**/
+	background-color: #F0FFFF;
+}
+.distinataire{
+	float: right;
+}
+.objet{
+	margin-top: 200px;
+}
+.lettre{
+	font-size: 16px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.lettre:hover{
+	/**background-color: #F0FFFF;**/
+	background-image: url('../images/samothrace.jpg');
+	border-radius: 25px;
+	box-shadow: 10px 12px 10px black;
+	font-weight: bold;
+}
+.distinataire:hover{
+	/**background-color: #0e7878;**/
+	background-image: url('../images/monaLisa1.jpg');
+	border-radius: 25px;
+	box-shadow: 10px 12px 10px black;
+	padding: 25px;
+	background:cover;
+}
+.info:hover{
+	/**background-color: #0e7878;**/
+	background-image: url('../images/sph1.jpg');
+	border-radius: 25px;
+	box-shadow: 10px 12px 10px black;
+	padding: 25px;
+	float: left;
+}
+.signature{
+	float: right;
+}
